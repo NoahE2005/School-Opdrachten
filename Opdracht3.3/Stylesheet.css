@@ -1,0 +1,22 @@
+table, th {
+    border-style: solid;
+    border-radius: 2px;
+    border-color: orange;
+    height: auto;
+}
+td {
+    border-left-style: double;
+    border-radius: 2px;
+    border-left-color: orange;
+    height: 50 px;
+    border-top-style: solid;
+    border-top-color: orange;
+}
+body {
+    font-size: larger;
+    text-align: center;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
