@@ -13,7 +13,7 @@ header {
     margin-top: -50px;
 }
 footer {
-    margin-bottom: -50px;
+    margin-bottom: -150px;
 }
 
 body {
@@ -33,7 +33,7 @@ body {
 /* Add a black background color to the top navigation bar */
 .topnav {
     overflow: hidden;
-    background-color: rgb(255, 113, 36);
+    background-color: rgb(244, 97, 18);
   }
   
   /* Style the links inside the navigation bar */
