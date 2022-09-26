@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -63,4 +63,16 @@ footer {
 }
 h1, h2, h3, h4, h5, h6 {
   text-align: center;
+}
+p {
+  font-size: large;
+}
+div {
+  margin-top: -30px;
+}
+.Imgleft {
+  float: left;
+}
+.ImgRight {
+  float: right;
 }
