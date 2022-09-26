@@ -13,6 +13,8 @@ body {
   padding: 0;
   box-sizing: border-box;
   height: 100%;
+  background-color: black;
+  color: white;
 }
 
 nav {
@@ -70,7 +72,7 @@ p {
 div {
   margin-top: -30px;
 }
-.Imgleft {
+.ImgLeft {
   float: left;
 }
 .ImgRight {
