@@ -15,6 +15,7 @@ body {
 }
 
 nav {
+  position: static;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -53,4 +54,9 @@ list-style-type: circle;
 {
 font-size: 24px;  
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+  min-height:100vh;
+  background: #00a8c7;
+  position: absolute;
 }
