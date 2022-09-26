@@ -16,7 +16,7 @@ body {
 }
 
 nav {
-  position: static;
+  position: fixed;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -59,4 +59,8 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 footer {
   min-height:100vh;
   background: #00a8c7;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
 }
