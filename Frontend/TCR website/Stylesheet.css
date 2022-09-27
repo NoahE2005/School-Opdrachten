@@ -1,15 +1,27 @@
+html {
+    height: 100%;
+}
 body {
     color: white;
+    width: auto;
+    margin: 0px;
+    padding: 0px;
+}
+header, .NavBorder {
+    background-color: rgb(0, 96, 0);
 }
 header {
-    background-color: green;
     color: white;
-    height: 50px;
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
 }
 .header2 {
-    background-color: rgb(1, 86, 1);
+    background-color: rgb(0, 64, 0);
     color: white;
-    height: 150px;
+    height: 350px;
+    width: 100%;
 }
 .Imgborder {
     border-style: none;
@@ -19,13 +31,46 @@ header {
     padding-left: 100%;
     padding-right: 20px;
 }
-.Navborder {
-    border-style: none;
-    padding: 20 px;
+.TCRLogo {
+    background-color: white;
+    width: 180px;
+    height: 80px;
+    float: left;
+    margin-left: 20px;
+}
+.TCRBorder {
+    border-style: solid;
+    border-width: 0px;
+    border-color: white;    
+    padding: 10px;
+    background-color: white;
+    width: 180px;
+    height: 80px;
+    margin-left: 20px;
+}
+.NavBorder {
+    border-style: solid;
+    border-color: rgb(0, 96, 0);
+    border-width: 5px;
+    font-size: large;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: 1s;
+    margin: 10px;
+    text-decoration: none;
     color: white;
 }
-.Navborder:hover {
+.NavBorder:hover {
     color: yellow;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: larger;
+    transition: 1s;
+    text-align: center;
+    border-color: rgb(0, 53, 0);
 }
 .AlignRight {
     float: right;
