@@ -29,6 +29,12 @@ h1 {
     width: 100%;
     position: absolute;
 }
+.header2content {
+    margin-left: 70px;
+}
+a {
+    color: white;
+}
 .Imgborder {
     border-style: none;
     background-color: white;
