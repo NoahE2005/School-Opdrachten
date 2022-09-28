@@ -16,9 +16,10 @@ body {
   background-color: black;
   color: white;
 }
-
+header {
+  position: sticky;
+}
 nav {
-  position: absolute;
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -27,7 +28,9 @@ nav {
   flex-wrap: wrap;
   margin: auto;
   background: #00a8c7;
-  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  padding-top: 52px;
 }
 nav ul {
   display: flex;
@@ -77,4 +80,10 @@ div {
 }
 .ImgRight {
   float: right;
+}
+.text {
+  margin-top: 200px;
+}
+h1 {
+  font-size: 150px;
 }
