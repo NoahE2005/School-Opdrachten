@@ -1,0 +1,89 @@
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Goldman", cursive;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  background-color: black;
+  color: white;
+}
+header {
+  position: sticky;
+}
+nav {
+  display: flex;
+  width: 100%;
+  padding: 2rem;
+  min-height: 10vh;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  background: #00a8c7;
+  position: fixed;
+  top: 0;
+  padding-top: 52px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+nav li {
+  font-size: 2.5rem;
+  padding: 0 4rem 0 4rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav img {
+  width: 5vw;
+}
+
+.tekst
+{
+font-size: 24px;  
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+list-style-type: circle;
+}
+
+.tekst2
+{
+font-size: 24px;  
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer {
+  min-height:100vh;
+  background: #00a8c7;
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+}
+p {
+  font-size: large;
+}
+div {
+  margin-top: -30px;
+}
+.ImgLeft {
+  float: left;
+}
+.ImgRight {
+  float: right;
+}
+.text {
+  margin-top: 200px;
+}
+h1 {
+  font-size: 150px;
+}
