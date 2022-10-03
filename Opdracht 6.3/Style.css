@@ -1,0 +1,19 @@
+li {
+    color: blue;
+}
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    list-style: none;
+    border-style: none;
+    border-width: 0px;
+	align-content: space-around;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.UL2 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
