@@ -1,6 +1,12 @@
 body {
     background-color: yellow;
   } 
+  .Nav {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+  }
   
   @media only screen and (max-width: 600px) {
     body {
@@ -14,9 +20,3 @@ body {
     }
   }
 
-  .Nav {
-    display: flex;
-    flex-direction: row;
-    list-style: none;
-    justify-content: space-around;
-  }
