@@ -11,9 +11,9 @@ body {
 }
 
 .Section1, .Section2, .Section3 {
-    height: 20%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    height: 90%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .Section1 {
@@ -36,7 +36,7 @@ header {
     color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 761px) {
     .Section1 {
         background-color: red;
     }
@@ -58,7 +58,7 @@ header {
     }
   }
 
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 576px) {
     .Section1 {
         background-color: aqua;
         padding-top: 10%;
