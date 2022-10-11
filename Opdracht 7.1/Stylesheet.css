@@ -12,8 +12,8 @@ body {
 
 .Section1, .Section2, .Section3 {
     height: 90%;
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 0.5%;
+    padding-bottom: 5.5%;
 }
 
 .Section1 {
