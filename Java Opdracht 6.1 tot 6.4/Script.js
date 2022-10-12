@@ -38,6 +38,17 @@
   document.getElementById("Cal"). textContent = som2;
  }
 
+ function ByFive() {
+  var byfivenum = Math.floor(Math.random() * 100) + 1;
+  var som3 = byfivenum * 5;
+  document.getElementById("Cal2"). textContent = som3;
+ }
+
+ function SecNaarMin() {
+  var num3 = prompt ("Getal (in second)?");
+  var som4 = num3 / 60;
+  document.getElementById("Cal3"). textContent = som4;
+ }
 
 
 var getal1 = 12;
