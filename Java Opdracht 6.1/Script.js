@@ -27,6 +27,7 @@
   }
   function Disco5() {
     document.body.style.backgroundColor = "white";
+    alert ("Success!")
   }
 
 
