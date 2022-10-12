@@ -32,8 +32,10 @@
 
 
  function calculate() {
-  var num1
-  var num
+  var num1 = prompt ("Getal?");
+  var num = prompt ("Getal2?");
+  var som2 = num * num1;
+  document.getElementById("Cal"). textContent = som2;
  }
 
 
