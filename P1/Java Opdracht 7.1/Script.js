@@ -15,7 +15,6 @@ function BudgetCheck() {
     alert("Sucess")
 }
 function Tekst73() {
-    var getal = getal
     document.getElementById("7.3Id"). textContent = getal++;
     if(getal>10) 
     {
