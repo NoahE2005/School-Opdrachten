@@ -50,6 +50,9 @@
   document.getElementById("Cal3"). textContent = som4;
  }
 
+ function TextChange() {
+  document.getElementById("ChangeText"). textContent = "Hello Welcome";
+ }
 
 var getal1 = 12;
 var getal2 = 4;
