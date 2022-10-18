@@ -59,7 +59,7 @@ html,body,div{
     font-weight:bold;
 }
 
-.TCRFloat, .wrapper {
+.wrapper {
     background-color: red;
     padding-bottom: 100px;
     float: left;
