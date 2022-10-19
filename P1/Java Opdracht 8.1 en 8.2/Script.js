@@ -7,7 +7,7 @@ function Plus() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-        document.getElementById("TextChange").style.color = "black";
+        document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
 
@@ -22,7 +22,7 @@ function Minus() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-        document.getElementById("TextChange").style.color = "black";
+        document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
 
@@ -47,7 +47,7 @@ function Multiply() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-        document.getElementById("TextChange").style.color = "black";
+        document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
 }
@@ -75,7 +75,7 @@ function Divide() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-        document.getElementById("TextChange").style.color = "black";
+        document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
 }
