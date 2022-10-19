@@ -7,9 +7,11 @@ function Plus() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-
+        document.getElementById("TextChange").style.color = "black";
     }
 }
+
+
 
 function Minus() {
     var field1 = document.getElementById('num1').value;
@@ -20,9 +22,11 @@ function Minus() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
-
+        document.getElementById("TextChange").style.color = "black";
     }
 }
+
+
 
 function Multiply() {
     var field1 = document.getElementById('num1').value;
@@ -30,10 +34,12 @@ function Multiply() {
 
     if ((field1<=0)) {
         document.getElementById("TextChange").textContent= "Het Nummer1 is te laag ";
+        document.getElementById("TextChange").style.color = "red";
     }
     else {
     if ((field2<=0)) {
         document.getElementById("TextChange").textContent= "Het Nummer2 is te laag ";
+        document.getElementById("TextChange").style.color = "red";
     }
     else {
     var result = parseFloat(field1) * parseFloat(field2);
@@ -41,10 +47,14 @@ function Multiply() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").style.color = "black";
     }
 }
 }
 }
+
+
+
 
 function Divide() {
     var field1 = document.getElementById('num1').value;
@@ -52,10 +62,12 @@ function Divide() {
 
     if ((field1<=0)) {
         document.getElementById("TextChange").textContent= "Het Nummer1 is te laag ";
+        document.getElementById("TextChange").style.color = "red";
     }
     else {
     if ((field2<=0)) {
         document.getElementById("TextChange").textContent= "Het Nummer2 is te laag ";
+        document.getElementById("TextChange").style.color = "red";
     }
     else {
     var result = parseFloat(field1) / parseFloat(field2);
@@ -63,6 +75,7 @@ function Divide() {
 
     {
         document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").style.color = "black";
     }
 }
 }
