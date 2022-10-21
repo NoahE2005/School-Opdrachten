@@ -44,3 +44,23 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function AgeCheck() {
+    var field1 = document.getElementById('num1').value;
+    var MinAge = "18"
+
+    if (field1>=MinAge) {
+        document.getElementById("AgeCheckText").style.color = "green";
+        document.getElementById("AgeCheckText"). textContent  = "De leeftijd is goed!";
+        setTimeout(ModalRemove, 1000)
+    }
+    else {
+        document.getElementById("AgeCheckText").style.color = "red";
+        document.getElementById("AgeCheckText"). textContent  = "U moet ouder dan 18 zijn";
+    }
+}
+
+function ModalRemove() {
+    document.getElementById("Modal").style.transition = "opacity 0.5s linear 0s";
+    document.getElementById("Modal").style.opacity = 0;
+}
