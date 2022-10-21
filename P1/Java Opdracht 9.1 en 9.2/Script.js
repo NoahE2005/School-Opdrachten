@@ -11,10 +11,10 @@ function ChangeImg() {
 
 function ChangeImg2() {
         var x = document.getElementById("Monkey2");
-        if (x.innerHTML === "🙉") {
+        if (x.innerHTML === "🙈") {
           x.innerHTML = "🐵";
         } else {
-          x.innerHTML = "🙉";
+          x.innerHTML = "🙈";
         }
       }
 
