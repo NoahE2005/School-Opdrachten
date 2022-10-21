@@ -61,8 +61,8 @@ function AgeCheck() {
 }
 
 function ModalRemove() {
-    document.getElementById("Modal").style.transition = "opacity 0.5s linear 0s";
+    document.getElementById("Modal").style.transition = "opacity 0.9s linear 0s";
     document.getElementById("Modal").style.opacity = 0;
-    document.getElementById("myBtn").style.transition = "opacity 0.5s linear 0s";
+    document.getElementById("myBtn").style.transition = "opacity 0.9s linear 0s";
     document.getElementById("myBtn").style.opacity = 0;
 }
