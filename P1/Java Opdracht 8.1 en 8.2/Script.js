@@ -6,7 +6,7 @@ function Plus() {
     if (!isNaN(result))
 
     {
-        document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").textContent= "Het antwoord is: " + result;
         document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
@@ -21,7 +21,7 @@ function Minus() {
     if (!isNaN(result))
 
     {
-        document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").textContent= "Het antwoord is: " + result;
         document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
@@ -46,7 +46,7 @@ function Multiply() {
     if (!isNaN(result))
 
     {
-        document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").textContent= "Het antwoord is: " + result;
         document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
@@ -74,7 +74,7 @@ function Divide() {
     if (!isNaN(result))
 
     {
-        document.getElementById("TextChange").textContent= "Het antwoord is " + result;
+        document.getElementById("TextChange").textContent= "Het antwoord is: " + result;
         document.getElementById("TextChange").style.color = "rgb(0, 0, 0)";
     }
 }
