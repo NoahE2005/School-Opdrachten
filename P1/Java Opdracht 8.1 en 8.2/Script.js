@@ -80,3 +80,12 @@ function Divide() {
 }
 }
 }
+
+function Round() {
+    var RoundNumber = document.getElementById('TextChange').value;
+
+    var RoundedNumber = Math.round(RoundNumber);
+
+    document.getElementById("TextChange").textContent = "Het antwoord is: " +  RoundedNumber;
+
+}
