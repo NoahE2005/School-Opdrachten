@@ -63,6 +63,7 @@ function Divide() {
     if ((field1<=0)) {
         document.getElementById("TextChange").textContent= "Het Nummer1 is te laag ";
         document.getElementById("TextChange").style.color = "red";
+
     }
     else {
     if ((field2<=0)) {
@@ -84,7 +85,7 @@ function Divide() {
 function Round() {
     var RoundNumber = document.getElementById('TextChange').value;
 
-    var RoundedNumber = Math.round(RoundNumber);
+    var RoundedNumber = parseInt(RoundNumber);
 
     document.getElementById("TextChange").textContent = "Het antwoord is: " +  RoundedNumber;
 
