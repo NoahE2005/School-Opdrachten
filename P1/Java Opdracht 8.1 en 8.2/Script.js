@@ -84,9 +84,8 @@ function Divide() {
 
 function Round() {
     var RoundNumber = document.getElementById('TextChange').value;
+    var RoundNumber2 = parseInt(RoundNumber);
+    
 
-    var RoundedNumber = parseInt(RoundNumber);
-
-    document.getElementById("TextChange").textContent = "Het antwoord is: " +  RoundedNumber;
-
+    document.getElementById("TextChange").textContent = "Het antd is: " +  (Math.round(RoundNumber2));
 }
