@@ -83,27 +83,11 @@ function Divide() {
 }
 
 function Round() {
-    var field1 = document.getElementById('num1').value;
-    var field2 = document.getElementById('num2').value;
-    if ((field1<=0)) {
-        document.getElementById("TextChange").textContent= "Het Nummer1 is te laag ";
-        document.getElementById("TextChange").style.color = "red";
-
-    }
-    else {
-    if ((field2<=0)) {
-        document.getElementById("TextChange").textContent= "Het Nummer2 is te laag ";
-        document.getElementById("TextChange").style.color = "red";
-    }
-    else {
-    var result = parseFloat(field1) / parseFloat(field2);
-    if (!isNaN(result))
-
     var RoundNumber = document.getElementById("TextChange").textContent;
     var RoundedNumber = RoundNumber.slice(17, 35);
 
     document.getElementById("TextChange").innerHTML = "Het antwoord is: " +  Math.round(RoundedNumber);
-    
+
 }
-}
-}
+
+
