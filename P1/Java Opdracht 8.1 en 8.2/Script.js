@@ -103,7 +103,7 @@ function Round() {
     var RoundedNumber = RoundNumber.slice(17, 35);
 
     document.getElementById("TextChange").innerHTML = "Het antwoord is: " +  Math.round(RoundedNumber);
+    
 }
-
 }
 }
