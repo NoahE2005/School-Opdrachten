@@ -47,9 +47,9 @@ window.onclick = function(event) {
 
 function AgeCheck() {
     var field1 = document.getElementById('num1').value;
-    var MinAge = "18"
+    var MinAge = parseInt("18");
 
-    if (field1>=MinAge) {
+    if (field1 >= MinAge) {
         document.getElementById("AgeCheckText").style.color = "green";
         document.getElementById("AgeCheckText"). textContent  = "De leeftijd is goed!";
         setTimeout(ModalRemove, 1000)
