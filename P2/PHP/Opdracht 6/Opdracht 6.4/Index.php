@@ -12,10 +12,7 @@ $Oppervlakte = $Pi*$kwadraat;
 $Diamater = 2 * $Straal;
 
 
-
-
-
-echo "de omtrek is " .$Omtrek. "<br><br><br>";
+echo "de omtrek is " .$Omtrek. "<br><br>";
 
 echo "Pi= " .$Pi. "<br><br>";
 
