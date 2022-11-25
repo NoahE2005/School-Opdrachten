@@ -21,6 +21,4 @@ echo "De straal= " .$Straal. "<br>";
 echo "De oppervlakte= " .$Oppervlakte. "<br>";
 echo "De diameter= " .$Diamater. "<br>";
 
-
-
 ?>
