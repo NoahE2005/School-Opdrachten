@@ -10,7 +10,9 @@
         
   echo"Hoe vaak de pagina is geladen = ".$_SESSION['views'];
 
-  setcookie($_SESSION);
+  $name = "cookie";
+  $time = $_SESSION;
+  setcookie($name, $time);
   
     
   ?>
