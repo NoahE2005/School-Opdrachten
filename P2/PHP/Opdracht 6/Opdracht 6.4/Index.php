@@ -13,13 +13,15 @@ $Diamater = 2 * $Straal;
 
 
 
-echo $pi. "<br>";
 
-echo "de omtrek is" .$Omtrek. "<br>";
 
-echo "De straal= " .$Straal. "<br><br>";
-echo "De oppervlakte= " .$Oppervlakte. "<br><br>";
-echo "De diameter= " .$Diamater. "<br><br>";
+echo "de omtrek is " .$Omtrek. "<br><br><br>";
+
+echo "Pi= " .$Pi. "<br><br>";
+
+echo "De straal= " .$Straal. "<br>";
+echo "De oppervlakte= " .$Oppervlakte. "<br>";
+echo "De diameter= " .$Diamater. "<br>";
 
 
 
