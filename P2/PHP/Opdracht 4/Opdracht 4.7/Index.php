@@ -1,14 +1,17 @@
 <?php 
-$spaargeld = 800;
+$Spaargeld = 800;
+$Totaalkost = 1000;
+$TotaalMin250 = $Totaalkost - 250 ;
+$MissendGeld = $Totaalkost - $Spaargeld;
 
-if ($spaargeld > 1000) {
+if ($Spaargeld > $Totaalkost) {
     echo "U kan de telefoon kopen";
 }
-elseif ($spaargeld > 750) {
-    echo "U heeft de telefoon bijna, u moet nog " .$spaargeld. " euro verdienen";
+elseif ($Spaargeld > $TotaalMin250) {
+    echo "U heeft de telefoon bijna, u moet nog " .$MissendGeld. " euro verdienen";
 }
-elseif ($spaargeld < 750) {
-    echo "U moet een baantje krijgen, u moet nog" .$spaargeld. " euro verdienen";
+elseif ($Spaargeld < $TotaalMin250) {
+    echo "U moet een baantje krijgen, u moet nog" .$MissendGeld. " euro verdienen";
 }
 
 

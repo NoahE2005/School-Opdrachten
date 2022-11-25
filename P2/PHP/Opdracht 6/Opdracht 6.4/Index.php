@@ -1,17 +1,18 @@
 <?php 
 $Omtrek = 50;
 
-$Pi = pi();
+$Pi = pi(); //een Pi variabele 
 
 
 $Straal = $Omtrek / (2*$Pi); //Straal berekenen
 
 $kwadraat = $Straal * $Straal;
-$Oppervlakte = $Pi*$kwadraat;
+$Oppervlakte = $Pi*$kwadraat; // oppervlakte berekenen
 
-$Diamater = 2 * $Straal;
+$Diamater = 2 * $Straal; //Diameter berekenen
 
 
+// Antwoorden laten zien
 echo "de omtrek is " .$Omtrek. "<br><br>";
 
 echo "Pi= " .$Pi. "<br><br>";

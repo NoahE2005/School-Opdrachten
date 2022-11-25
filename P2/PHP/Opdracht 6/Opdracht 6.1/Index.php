@@ -8,6 +8,6 @@
   else
       $_SESSION['views']=1;
         
-  echo"Hoe vaak de pagina is geladen = ".$_SESSION['views'];
+  echo"Hoe vaak de pagina is geladen = ".$_SESSION['views']; 
     
   ?>

@@ -2,7 +2,7 @@
 $min = 1;
 $max = 9;
 
-echo (rand(1,9)),(rand(1,9)),(rand(1,9)),(rand(1,9));
+echo (rand(1,9)),(rand(1,9)),(rand(1,9)),(rand(1,9)); // 4 keer een willekeurig nummer
 
 $n = 10;
 function getRandomString($n)
@@ -18,8 +18,8 @@ function getRandomString($n)
   return $randomString;
 }
 
-echo " ";
+echo " "; //een spatie
 
-echo getRandomString( $n);
+echo getRandomString( $n); //willekeurige letter
 
 ?>
