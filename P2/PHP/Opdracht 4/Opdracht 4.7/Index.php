@@ -14,5 +14,4 @@ elseif ($Spaargeld < $TotaalMin250) {
     echo "U moet een baantje krijgen, u moet nog" .$MissendGeld. " euro verdienen";
 }
 
-
 ?>
