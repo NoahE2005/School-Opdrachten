@@ -18,7 +18,7 @@ if(isset($_GET['Nprocent'])){
 
 echo "<br><br><br>";
 function BtwCheck() {
-    if($BTWhoog){
+    if($BTWhoog == false){
         echo "9procent";
         } 
     
