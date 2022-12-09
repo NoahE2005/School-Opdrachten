@@ -4,7 +4,7 @@
     <input type="radio" id="9procent" name="Nprocent" value="0">9% Btw</input>
     <input type="radio" id="21procent" name="Tprocent" value="1">21% Btw</input>
     <br>
-    <input type="button" id="berekenen" onclick="BtwCheck()">BTW berekenen</input>
+    <input type="button" id="berekenen" onclick="echo BtwCheck()">BTW berekenen</input>
 </form>
 
 <?php 
@@ -21,5 +21,7 @@ function BtwCheck() {
         echo "Niets";
         }
 }
+
+$invoer = filter_input((INPUT_POST, "tekstvak"))
 
 ?>
