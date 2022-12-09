@@ -2,9 +2,9 @@
 
 Bedrag exclusief BTW: <input type="text" name="bedrag"><br>
 
-<input type="radio" name="btw" value="0.06">laag tarief - 6%<br>
+<input type="radio" name="btw" value="0.09">laag tarief - 9%<br>
 
-<input type="radio" name="btw" value="0.19" checked>hoog tarief - 19%<br>
+<input type="radio" name="btw" value="0.21" checked>hoog tarief - 21%<br>
 
 <input type="submit" value="Bereken BTW">
 
