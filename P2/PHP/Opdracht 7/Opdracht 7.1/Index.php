@@ -10,17 +10,6 @@
 <?php 
 $BTWhoog = true;
 
-if(isset($_GET['Nprocent'])){
-    $BTWhoog = false;
-    echo "false";
-    } elseif (isset($_GET['Tprocent'])) {
-    $BTWhoog = true;
-    echo "true";
-    }
-    else {
-        echo "Niets";
-    }
-
 echo "<br><br><br>";
 function BtwCheck() {
     if(isset($_GET['Nprocent'])){
