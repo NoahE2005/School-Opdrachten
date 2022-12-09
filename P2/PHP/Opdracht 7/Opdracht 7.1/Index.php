@@ -1,4 +1,4 @@
-
+<html>
 <form method="post">
     <input type="text" name="tekstvak"></input>
     <input type="radio" id="9procent" name="Nprocent" value="0">9% Btw</input>
@@ -6,12 +6,13 @@
     <br>
     <input type="button" id="berekenen" onclick="echo BtwCheck()">BTW berekenen</input>
 </form>
+</html>
 
 <?php 
 $BTWhoog = true;
 
 echo "<br><br><br>";
-function BtwCheck() {
+function BtwCheck($getal) {
     if(isset($_GET['Nprocent'])){
         echo "false";
         } elseif (isset($_GET['Tprocent'])) {
@@ -22,6 +23,5 @@ function BtwCheck() {
         }
 }
 
-$invoer = filter_input((INPUT_POST, "tekstvak"))
 
 ?>
