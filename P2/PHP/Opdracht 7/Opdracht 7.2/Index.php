@@ -28,6 +28,7 @@ if(!empty($_POST)){
 ?>
  
 <html>
+
 <form action="<?php echo $_SERVER["PHP_SELF"]?>" method="post">
 getal 1: <input type="text" name="getal1"><br>
 getal 2: <input type="text" name="getal2"><br>
@@ -40,4 +41,5 @@ getal 2: <input type="text" name="getal2"><br>
 <input type="submit" name="rekenen" value="Bereken">
 <input type="reset" name="reset" value="Leegmaken">
 </form>
+
 </html>
