@@ -1,0 +1,84 @@
+html {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background-color: gray;
+}
+
+main {
+    background-color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+header {
+    min-height: 25vh;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(39, 39, 39);
+}
+
+.NavItem {
+    transition: 0.2s;
+    padding: 0 1vw;
+    min-height: 5vh;
+    display: flex;
+    align-items: center;
+}
+
+.NavItem:hover {
+    transition: 0.2s;
+    padding: 0 1vw;
+    background-color: purple;
+    cursor: pointer;
+}
+
+.HeaderGradient {
+    background-image: linear-gradient(to right, rgb(92, 92, 92)  , rgb(176, 176, 176));
+    color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.HeaderDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.PhoneNumberText {
+
+    margin-right: 5vw;
+    font-size: 4vh;
+}
+
+.HeaderImg {
+    float: left;
+}
+
+.NieuwsBox {
+    background-color: black;
+    color: white;
+    border-radius: 1.5vw;
+    float: right;
+    width: 18vw;
+    padding: 0 2vw;
+    opacity: 0.7;
+}
+
+.MainBox {
+    background-image: linear-gradient(  rgb(176, 176, 176) ,rgb(92, 92, 92));
+    width: 50vw;
+    height: 60vh;
+    padding: 0 2vw;
+}
+
+footer {
+    text-align: center;
+}
