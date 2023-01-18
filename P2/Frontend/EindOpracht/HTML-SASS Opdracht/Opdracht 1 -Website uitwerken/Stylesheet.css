@@ -1,20 +1,36 @@
 html {
     height: 100vh;
     width: 100vw;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(26, 26, 26)  , rgb(176, 176, 176));
+    word-spacing: 0.4vw;
+    letter-spacing: 0.04vw;
 }
 
 body {
     background-color: gray;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to bottom, rgb(26, 26, 26)  , rgb(114, 114, 114));
 }
 
 main {
     background-color: white;
     margin-left: 10vw;
     margin-right: 10vw;
+    padding-top: 25vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-image: url("/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/images/pic01.png");
+    background-size: 100%;
+    box-shadow: 0px 0px 1.5vw 1.5vw #0000005e, 0px -126px 96px 0px black inset;
 }
 
 header {
-    min-height: 25vh;
+    min-height: 20vh;
+    box-shadow: 0px 0px 1.5vw 1.5vw #0000005e;
 }
 
 nav {
@@ -53,10 +69,15 @@ nav {
 }
 
 .PhoneNumberText {
-
     margin-right: 5vw;
-    font-size: 4vh;
+    font-size: 2vh;
 }
+
+.PhoneNum {
+    font-size: 4vh;
+    font-weight: bold;
+}
+
 
 .HeaderImg {
     float: left;
@@ -67,9 +88,10 @@ nav {
     color: white;
     border-radius: 1.5vw;
     float: right;
-    width: 18vw;
+    width: 15vw;
     padding: 0 2vw;
     opacity: 0.7;
+    margin-right: 3vw;
 }
 
 .MainBox {
@@ -77,8 +99,40 @@ nav {
     width: 50vw;
     height: 60vh;
     padding: 0 2vw;
+    border-top-right-radius: 1.5vw;
+}
+
+.MainTitle {
+    color: purple;
+}
+
+.BGimg {
+    background-color: cadetblue;
+}
+
+.OfferteBox {
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+
+.OfferteButton {
+    border-radius: 15%;
+    border-style: solid;
+    border-width: 1vw;
+    border-color: purple;
+    background-color: purple;
+    max-height: 0.2vw;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.OfferteButton:hover {
+    cursor: pointer;
 }
 
 footer {
     text-align: center;
+    padding-bottom: 2vh;
 }
