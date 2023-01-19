@@ -13,6 +13,7 @@ body {
     padding: 0;
     margin: 0;
     background-image: linear-gradient(to bottom, rgb(26, 26, 26)  , rgb(114, 114, 114));
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
 }
 
 main {
@@ -33,25 +34,14 @@ header {
     box-shadow: 0px 0px 1.5vw 1.5vw #0000005e;
 }
 
-nav {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    background-color: rgb(39, 39, 39);
-}
-
 .NavItem {
     transition: 0.2s;
-    padding: 0 1vw;
-    min-height: 5vh;
     display: flex;
     align-items: center;
 }
 
 .NavItem:hover {
     transition: 0.2s;
-    padding: 0 1vw;
     background-color: purple;
     cursor: pointer;
 }
@@ -68,6 +58,69 @@ nav {
     justify-content: space-between;
 }
 
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 0.8vw;
+    color: white;
+    text-align: center;
+    padding: 1.6vh 2vh;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 0.8vw; 
+    border: none;
+    outline: none;
+    color: white;
+    padding: 1.6vh 2vh;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(126, 0, 119);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0000004b;
+    color: white;
+    opacity: 0.8;
+    min-width: 10vw;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 1vh 0;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 1.6vh 2vh;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgba(0, 0, 0, 0.671);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 .PhoneNumberText {
     margin-right: 5vw;
     font-size: 2vh;
@@ -81,6 +134,7 @@ nav {
 
 .HeaderImg {
     float: left;
+    z-index: 4;
 }
 
 .NieuwsBox {
@@ -100,6 +154,13 @@ nav {
     height: 60vh;
     padding: 0 2vw;
     border-top-right-radius: 1.5vw;
+
+}
+
+.MainBoxText {
+    padding-right: 1vw;
+    display: flex;
+    margin-top: -1vw;
 }
 
 .MainTitle {
@@ -113,7 +174,11 @@ nav {
 .OfferteBox {
     display: flex;
     flex-direction: column;
+    align-self: flex-end;
+    align-items: center;
+    justify-content: center;
     float: right;
+    width: 35%;
 }
 
 .OfferteButton {
@@ -123,16 +188,42 @@ nav {
     border-color: purple;
     background-color: purple;
     max-height: 0.2vw;
+    width: 80%;
     color: white;
     display: flex;
     align-items: center;
+    transition: 0.2s;
 }
+
+.OfferteImg {
+    max-height: 80%;
+    max-width: 80%;
+    margin: 1vw 0;
+    box-shadow: 10px 20px 1vw 0 #00000091
+}
+
 
 .OfferteButton:hover {
     cursor: pointer;
+    transition: 0.2s;
+    background-color: black;
+    border-color: black;
+    border-color: bla;
+}
+
+.Purple {
+    color: rgb(212, 0, 212);
 }
 
 footer {
     text-align: center;
     padding-bottom: 2vh;
+}
+
+.FooterText {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin: 1vh 8vw;
 }

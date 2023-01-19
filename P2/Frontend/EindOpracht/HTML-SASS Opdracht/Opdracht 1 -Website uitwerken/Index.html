@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Stylesheet" href="Stylesheet.css">
-    <title>Document</title>
+    <title>DeWinkelStelling</title>
 </head>
 <body>
     <header class="HeaderGradient">
@@ -23,13 +23,38 @@
         </div>
     </div>
 
-        <nav>
-            <a class="NavItem">Home</a>
-            <a class="NavItem">Over ons</a>
-            <a class="NavItem">Winkelstellingen</a>
-            <a class="NavItem">Referenties</a>
-            <a class="NavItem">Contact</a>
-        </nav>
+    <nav>
+    <div class="navbar">
+        <a class="NavItem" href="#home">Home</a>
+        <a class="NavItem" href="#news">Over ons</a>
+        <div class="dropdown">
+            <button class="NavItem dropbtn">Winkelstellingen
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="#">Subpagina 1</a>
+              <a href="#">Subpagina 2</a>
+              <a href="#">Subpagina 3</a>
+              <a href="#">Subpagina 4</a>
+            </div>
+          </div> 
+
+        <div class="dropdown">
+          <button class="NavItem dropbtn">Referenties
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Subpagina 1</a>
+            <a href="#">Subpagina 2</a>
+            <a href="#">Subpagina 3</a>
+            <a href="#">Subpagina 4</a>
+          </div>
+        </div> 
+
+        <a class="NavItem" href="#news">Contact</a>
+      </div>
+    </nav>
+
     </header>
 
     <div class="BottomShadow">
@@ -38,19 +63,22 @@
             <h1>
                 Nieuws
             </h1>
+
+            <br>
+
             <p>
                 <strong> Nieuwe Website</strong> <br>
                 De Winkelstelling heeft een nieuwe website later realiseren door Webbol
                 internet Marketing 
             </p>
-            <a>Lees meer >></a>
+            <p class="Purple">Lees meer >></p>
             <br><br>
             <p>
                 <strong> Nieuwe Website</strong> <br>
                 De Winkelstelling heeft een nieuwe website later realiseren door Webbol
                 internet Marketing 
             </p>
-            <a>Lees meer >></a>
+            <p class="Purple">Lees meer >></p>
         </section>
         
         <section class="MainBox">
@@ -59,10 +87,11 @@
             </h1>
             <img>
             <div class="OfferteBox">
-                <img>
-                <img>
+                <img class="OfferteImg" src="/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/AdobeStock_16042917_widescreen_large-1664261427.jpeg">
+                <img class="OfferteImg" src="/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/Plus-van-Schaick.avif">
                 <button class="OfferteButton">Offerte aanvragen</button>
             </div>
+            <div class="MainBoxText">
             <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
@@ -77,20 +106,7 @@
                 Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
                 Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
+
                 <br><br>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
@@ -98,10 +114,8 @@
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                 Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
                 Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                Consequatur rem dolorum magni qui impedit minima voluptates accusantium distinctio in. 
-                Officiis incidunt consequatur ad tempore nihil quae obcaecati quidem eos quibusdam!
             </p>
+        </div>
         </section>
     </main>
 </div>
@@ -110,9 +124,19 @@
 
 </div>
     <footer>
-    <p>
-        © De Winkelstelling | Adresenstaat 10 | 1234 PC | Maassluis | 010-2345678 | Wbdesign: Webbol
-    </p>
+        <ul class="FooterText">
+            <li>© De Winkelstelling</li>
+            <li>|</li>
+            <li>Adresenstaat 10</li>
+            <li>|</li>
+            <li>1234 PC</li>
+            <li>|</li>
+            <li> Maassluis</li>
+            <li>|</li>
+            <li>010-2345678</li>
+            <li>|</li>
+            <li>Wbdesign: Webbol</li>
+        </ul>
 </footer>
 </body>
 </html>
