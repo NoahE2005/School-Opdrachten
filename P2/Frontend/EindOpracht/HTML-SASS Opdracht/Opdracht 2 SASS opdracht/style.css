@@ -1,5 +1,226 @@
-body, main {
-  background-color: rgb(0, 225, 255);
+html {
+  height: 100vh;
+  width: 99vw;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to bottom, rgb(26, 26, 26), rgb(176, 176, 176));
+  background-color: yellow;
+  word-spacing: 0.4vw;
+  letter-spacing: 0.04vw;
+  font-size: 0.8vw;
+}
+
+body {
+  background-color: grey;
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(to bottom, rgb(26, 26, 26), rgb(114, 114, 114));
+  font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+main {
+  background-color: grey;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  padding-top: 25vh;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  background-image: url("/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/images/pic01.png");
+  background-size: 100%;
+  box-shadow: 0px 0px 1.5vw 1.5vw black, 0px -126px 96px 0px black inset;
+}
+
+header {
+  min-height: 20vh;
+  box-shadow: 0px 0px 1.5vw 1.5vw black;
+}
+
+.NavItem {
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.NavItem:hover {
+  transition: 0.2s;
+  background-color: purple;
+  cursor: pointer;
+}
+
+.HeaderGradient {
+  background-color: yellow;
+  color: white;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+.HeaderDiv {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar a {
+  float: left;
+  font-size: 0.8vw;
+  color: white;
+  text-align: center;
+  padding: 1.6vh 2vh;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 0.8vw;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 1.6vh 2vh;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(126, 0, 119);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: yellow;
+  color: white;
+  opacity: 0.8;
+  min-width: 10vw;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 1vh 0;
+}
+
+.dropdown-content a {
+  float: none;
+  color: yellow;
+  padding: 1.6vh 2vh;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: rgba(0, 0, 0, 0.671);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.PhoneNumberText {
+  margin-right: 5vw;
+  font-size: 2vh;
+}
+
+.PhoneNum {
+  font-size: 4vh;
+  font-weight: bold;
+}
+
+.HeaderImg {
+  float: left;
+  z-index: 4;
+}
+
+.NieuwsBox {
+  background-color: yellow;
+  color: white;
+  border-radius: 1.5vw;
+  float: right;
+  width: 15vw;
+  padding: 0 2vw;
+  opacity: 0.7;
+  margin-right: 3vw;
+}
+
+.MainBox {
+  background-image: linear-gradient(rgb(176, 176, 176), rgb(92, 92, 92));
+  width: 50vw;
+  height: 60vh;
+  padding: 0 2vw;
+  border-top-right-radius: 1.5vw;
+}
+
+.MainBoxText {
+  padding-right: 1vw;
+  display: flex;
+  margin-top: -1vw;
+}
+
+.MainTitle {
+  color: purple;
+}
+
+.BGimg {
+  background-color: cadetblue;
+}
+
+.OfferteBox {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  width: 35%;
+}
+
+.OfferteButton {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border-radius: 1vw;
+  background: linear-gradient(0deg, purple 50%, rgb(200, 0, 200) 50%);
+  height: 2.5vw;
+  width: 80%;
+  color: white;
+  transition: 0.2s;
+}
+
+.OfferteImg {
+  max-height: 80%;
+  max-width: 80%;
+  margin: 1vw 0;
+  box-shadow: 10px 20px 1vw 0 black;
+}
+
+.OfferteButton:hover {
+  cursor: pointer;
+  transition: 0.2s;
+  background-color: black;
+}
+
+.Purple {
+  color: rgb(212, 0, 212);
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2vh;
+}
+
+.FooterText {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: 1vh 8vw;
 }
 
 /*# sourceMappingURL=style.css.map */
