@@ -1,8 +1,10 @@
 
-    $--Color: yellow;
+    $--Color: rgba(0, 255, 72, 0.997);
     $--ShadowColor: black;
     $--BGcolor: grey;
+    $--BGcolor2: ($--Color - rgba(0,0,0,0.5));
     $--TextColor: white;
+    $--ImgURL: url("/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/images/pic01.png");
 
   html {
     height: 100vh;
@@ -29,10 +31,10 @@ main {
     margin-left: 10vw;
     margin-right: 10vw;
     padding-top: 25vh;
+    background-color: $--BGcolor2;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    background-image: url("/P2/Frontend/EindOpracht/HTML-SASS Opdracht/Opdracht 1 -Website uitwerken/Materiaal om website uit te werken/images/pic01.png");
     background-size: 100%;
     box-shadow: 0px 0px 1.5vw 1.5vw $--ShadowColor, 0px -126px 96px 0px $--ShadowColor inset;
 }
