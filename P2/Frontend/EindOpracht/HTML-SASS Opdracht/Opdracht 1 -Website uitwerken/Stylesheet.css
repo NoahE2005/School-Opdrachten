@@ -1,11 +1,12 @@
 html {
     height: 100vh;
-    width: 100vw;
+    width: 99vw;
     padding: 0;
     margin: 0;
     background-image: linear-gradient(to bottom, rgb(26, 26, 26)  , rgb(176, 176, 176));
     word-spacing: 0.4vw;
     letter-spacing: 0.04vw;
+    font-size: 0.8vw;
 }
 
 body {
