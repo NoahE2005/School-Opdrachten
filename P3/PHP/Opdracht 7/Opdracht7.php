@@ -73,7 +73,7 @@
 			echo "No results found.";
 		}
 
-		mysqli_close($conn);
+		$conn = null;
 	?>
 </body>
 </html>
