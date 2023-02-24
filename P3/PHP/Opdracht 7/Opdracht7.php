@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Radio Button Form</title>
+	<title>Poll</title>
 	<style>
 		table, th, td {
 			border: 1px solid black;
@@ -16,38 +16,37 @@
 <body>
 	<form method="post">
 		<label for="1">1</label>
-		<input type="radio" name="choice" value="1">
+		<input type="radio" name="choice" value="1" required>
         <br>
 
 		<label for="2">2</label>
-		<input type="radio" name="choice" value="2">
+		<input type="radio" name="choice" value="2" required>
         <br>
 
 		<label for="3">3</label>
-		<input type="radio" name="choice" value="3">
+		<input type="radio" name="choice" value="3" required>
         <br>
 
 		<label for="4">4</label>
-		<input type="radio" name="choice" value="4">
+		<input type="radio" name="choice" value="4" required> 
         <br>
 		<input type="submit">
 	</form>
 
 	<?php
-		// Connect to the database
-		$conn = mysqli_connect("localhost", "root", "", "schoool");
+    $name = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "schoool";
+		$conn = mysqli_connect($name, $username, $password, $dbname);
 
-		// Check if the form has been submitted
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
-			// Get the selected choice from the form
 			$choice = $_POST["choice"];
 
-			// Insert the choice into the database
 			$sql = "INSERT INTO poll (choice) VALUES ('$choice')";
 			mysqli_query($conn, $sql);
 		}
 
-		// Display a table of the poll results
 		$sql = "SELECT choice, COUNT(*) AS count FROM poll GROUP BY choice";
 		$result = mysqli_query($conn, $sql);
 
@@ -63,7 +62,6 @@
 			echo "No results found.";
 		}
 
-		// Close the database connection
 		mysqli_close($conn);
 	?>
 </body>
