@@ -10,10 +10,13 @@ include 'function.php';
 // Connect to database
 $conn = ConnectDB();
 //Print bieren
-OVzBieren($conn);
+// OVzBieren($conn);
 
-echo "<br><br>";
+// echo "<br><br>";
 
-//Print brouwers
-OVzBrouwers($conn);
+// //Print brouwers
+// OVzBrouwers($conn);
+
+//Print alles
+PrintTable();
 ?>

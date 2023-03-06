@@ -90,6 +90,28 @@ function OVzBrouwers($conn) {
     echo "</table>";
 }
 
+function GetData($table) {
+    $conn = ConnectDB();
+    $stmt = $conn->prepare("SELECT * FROM $table"); 
+    $stmt->execute();
+    
+    $result = $stmt->fetchAll();
+    return $result;
+}
+
+function PrintTable() {
+    $result = GetData("bier");
+
+    echo "<table>";
+    foreach($result as $row) {
+        echo "<tr><td>Rij </td>";
+        foreach($row as $col) {
+            echo "<td>$col</td>";
+        }
+    }
+    echo "</table>";
+}
+
 
 ?>
 
