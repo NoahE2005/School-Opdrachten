@@ -53,6 +53,7 @@
 				$sql = "UPDATE poll SET stem4 = stem4 + 1";
 			}
 
+
 			mysqli_query($conn, $sql);
 		}
 
