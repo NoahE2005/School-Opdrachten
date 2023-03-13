@@ -34,13 +34,22 @@ function PrintTable() {
     </form>
     ";
     echo "<table>";
+    $headers = array_keys($result[0]);
+
+    echo "<tr>";
+    foreach($headers as $header) {
+        echo "<td>";
+        echo $header;
+        echo "</td>";
+    }
+    echo "</tr>";
     foreach($result as $row) {
-        echo "<tr><td>Rij </td>";
+        echo "<tr><td>Rij:  </td>";
         foreach($row as $col) {
             echo "<td>$col</td>";
         }
         echo "<td>
-        <form method='post'>
+        <form method='post' action='UpdateBier.php?biercode=$row[biercode]'>
         <input type='submit' name='wijzigen' value='Wijzigen'>
         </form>
         </td>
@@ -63,8 +72,3 @@ function PrintTable() {
     }
 </style>
 
-<?php 
-echo "<h1>CRUD Tabel</h1>";
-PrintTable();
-
-?>
