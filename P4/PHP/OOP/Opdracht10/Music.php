@@ -9,7 +9,7 @@ Class Music
     * @param string $genre
     * @param int $listen
 */ 
-    public function __construct($name = "Template", $genre = "None", $listen = "0") 
+    public function __construct(string $name = "Template", string $genre = "None", int $listen = 0) 
     {
         $this->name = $name;
         $this->genre = $genre;
